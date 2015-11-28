@@ -15,6 +15,7 @@
 		9BF6C35E1C09CDF4005E7050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF6C35C1C09CDF4005E7050 /* LaunchScreen.storyboard */; };
 		9BF6C3691C09CDF4005E7050 /* LPJCollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6C3681C09CDF4005E7050 /* LPJCollectionDemoTests.m */; };
 		9BF6C3741C09CDF4005E7050 /* LPJCollectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6C3731C09CDF4005E7050 /* LPJCollectionDemoUITests.m */; };
+		9BF6C3831C09CEEF005E7050 /* LPJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF6C3821C09CEEF005E7050 /* LPJCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9BF6C36F1C09CDF4005E7050 /* LPJCollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPJCollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF6C3731C09CDF4005E7050 /* LPJCollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPJCollectionDemoUITests.m; sourceTree = "<group>"; };
 		9BF6C3751C09CDF4005E7050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF6C3811C09CEEF005E7050 /* LPJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPJCell.h; sourceTree = "<group>"; };
+		9BF6C3821C09CEEF005E7050 /* LPJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPJCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9BF6C35C1C09CDF4005E7050 /* LaunchScreen.storyboard */,
 				9BF6C35F1C09CDF4005E7050 /* Info.plist */,
 				9BF6C34E1C09CDF4005E7050 /* Supporting Files */,
+				9BF6C3811C09CEEF005E7050 /* LPJCell.h */,
+				9BF6C3821C09CEEF005E7050 /* LPJCell.m */,
 			);
 			path = LPJCollectionDemo;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				9BF6C3561C09CDF4005E7050 /* ViewController.m in Sources */,
 				9BF6C3531C09CDF4005E7050 /* AppDelegate.m in Sources */,
+				9BF6C3831C09CEEF005E7050 /* LPJCell.m in Sources */,
 				9BF6C3501C09CDF4005E7050 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				9BF6C37A1C09CDF4005E7050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF6C37B1C09CDF4005E7050 /* Build configuration list for PBXNativeTarget "LPJCollectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				9BF6C37D1C09CDF4005E7050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BF6C37E1C09CDF4005E7050 /* Build configuration list for PBXNativeTarget "LPJCollectionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				9BF6C3801C09CDF4005E7050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
