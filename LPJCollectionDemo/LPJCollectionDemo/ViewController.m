@@ -30,6 +30,7 @@ static NSString *PageID = @"pageView";
     layout.minimumInteritemSpacing = 0;
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     layout.itemSize = itmeSize;
+    NSLog(@"test");
     
     
     
