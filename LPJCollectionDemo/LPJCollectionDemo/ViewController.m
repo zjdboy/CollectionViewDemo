@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LPJCell.h"
+#import "AFNetworking.h"
 #define itmeSize CGSizeMake(self.view.bounds.size.width/3.0, 40)
 @interface ViewController ()<UICollectionViewDataSource, UICollectionViewDelegate>
 //数据
